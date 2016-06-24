@@ -1,0 +1,40 @@
+//
+// Sharp-CSS
+// CSS styling for sharp-www
+// License: MIT License
+//
+
+/** ALL **/
+$shadow_color: grey;
+$shadow_color_light: lightgrey;
+
+/* Links */
+$link_color: blue;
+
+/* NavBar */
+$navbar_background: blue;
+$navbar_active_background: darkblue;
+$navbar_text_color: white;
+
+/* Notices */
+// Used on alerts too
+$notice_success: rgba(0, 255, 0, 0.8);
+$notice_success_text: black;
+$notice_error: rgba(255, 0, 0, 0.8);
+$notice_error_text: white;
+$notice_warning: rgba(255, 165, 0, 0.8);
+$notice_warning_text: white;
+
+/* Forms */
+/** Buttons **/
+$forms_buttons_border: darkgrey;
+$forms_buttons_bgcolor: lightgrey;
+
+$forms_buttons_success_border: green;
+$forms_buttons_success_bg: lime;
+
+$forms_buttons_error_border: darkred;
+$forms_buttons_error_bg: red;
+
+$forms_buttons_warning_border: darkorange;
+$forms_buttons_warning_bg: orange;

@@ -1,0 +1,63 @@
+//
+// Sharp-CSS
+// CSS styling for sharp-www
+// License: MIT License
+//
+
+button, input[type="button"], input[type="submit"]{
+    background-color: $forms_buttons_bgcolor;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    margin: 10px;
+    border: none;
+}
+button:hover, input[type="button"]:hover, input[type="submit"]:hover{
+    background-color: $forms_buttons_border;
+    transition: 0.5s;
+}
+button:active, input[type="button"]:active, input[type="submit"]:active{
+    background-color: $forms_buttons_border;
+    box-shadow: 0 4px 16px 0 $shadow_color, 0 4px 20px 0 $shadow_color;
+}
+
+.button-success{
+    background-color: $forms_buttons_success_bg;
+}
+.button-success:active{
+    background-color: $forms_buttons_success_border;
+    box-shadow: 0 4px 16px 0 $shadow_color, 0 4px 10px 0 $shadow_color;
+    color: white;
+}
+.button-success:hover{
+    background-color: $forms_buttons_success_border;
+    color: white;
+}
+
+.button-error{
+    background-color: $forms_buttons_error_bg;
+    color: white;
+}
+.button-error:active{
+    background-color: $forms_buttons_error_border;
+    box-shadow: 0 4px 16px 0 $shadow_color, 0 4px 10px 0 $shadow_color;
+    color: white;
+}
+.button-error:hover{
+    background-color: $forms_buttons_error_border;
+    color: white;
+}
+
+.button-warning{
+    background-color: $forms_buttons_warning_bg;
+    color: white;
+}
+.button-warning:active{
+    background-color: $forms_buttons_warning_border;
+    box-shadow: 0 4px 16px 0 $shadow_color_light, 0 4px 10px 0 $shadow_color_light;
+    color: white;
+}
+.button-warning:hover{
+    background-color: $forms_buttons_warning_border;
+    color: white;
+}

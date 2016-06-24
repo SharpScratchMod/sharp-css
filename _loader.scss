@@ -1,0 +1,24 @@
+//
+// Sharp-CSS
+// CSS styling for sharp-www
+// License: MIT License
+//
+
+/* START SOURCE FROM FONT AWESOME (.loader == .fa .fa-pulse .fa-lg, .loader:before == .fa-spinner) */
+.loader{
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-animation: fa-spin 1s infinite steps(8);
+    animation: fa-spin 1s infinite steps(8);
+    font-size: 1.33333333em;
+    line-height: 0.75em;
+    vertical-align: -15%;
+}
+.loader:before{
+    content: "\f110";
+}
+/* END SOURCE FROM FONT AWESOME */

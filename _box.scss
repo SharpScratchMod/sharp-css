@@ -1,0 +1,23 @@
+//
+// Sharp-CSS
+// CSS styling for sharp-www
+// License: MIT License
+//
+
+.box{};
+.box-head{
+    border:1px solid black;
+    background-color: lightgrey;
+    color: black;
+    border-radius: 20px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    padding: 10px;
+}
+.box-body{
+    @extend .box-head;
+    background-color: none;
+    border-radius: 20px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}

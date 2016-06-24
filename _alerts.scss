@@ -1,0 +1,34 @@
+//
+// Sharp-CSS
+// CSS styling for sharp-www
+// License: MIT License
+//
+
+.message{
+    display: block;
+    padding: 10px;
+    border: 1px solid grey;
+    background-color: lightgrey;
+    color: black;
+}
+
+.message-success{
+    @extend .message;
+    border-color: darkgreen;
+    background-color: lime;
+    color: black;
+}
+
+.message-error{
+    @extend .message;
+    border-color: darkred;
+    background-color: red;
+    color: white;
+}
+
+.message-warning{
+    @extend .message;
+    border-color: darkorange;
+    background-color: orange;
+    color: white;
+}

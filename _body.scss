@@ -1,0 +1,26 @@
+//
+// Sharp-CSS
+// CSS styling for sharp-www
+// License: MIT License
+//
+
+body{
+    padding-left: 10px;
+    padding-top: 60px;
+}
+
+// Links
+a{
+    color: $link_color;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+//Code
+pre{
+    border-radius: 20px;
+    padding: 15px;
+    background-color: lightgrey;
+}

@@ -1,0 +1,32 @@
+//
+// Sharp-CSS
+// CSS styling for sharp-www
+// License: MIT License
+//
+
+ul.nav-pills{
+    list-style-type: none;
+    display: block;
+}
+ul.nav-pills li{
+    border-radius: 10px;
+    display: inline;
+    padding: 10px;
+    cursor: pointer;
+}
+ul.nav-pills li.active{
+    background-color: blue;
+    color: white;
+}
+ul.nav-pills li:hover{
+    background-color: lightgrey;
+}
+ul.nav-pills li.active:hover{
+    background-color: blue;
+}
+ul.nav-pills li.active a{
+    color: white;
+}
+ul.nav-pills li a{
+    color: black;
+}

@@ -1,0 +1,313 @@
+/*
+ * Sharp-CSS
+ * CSS styling for sharp-www
+ * License: MIT License
+*/
+/** ALL **/
+/* Links */
+/* NavBar */
+/* Notices */
+/* Forms */
+/** Buttons **/
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
+body {
+  padding-left: 10px;
+  padding-top: 60px; }
+
+a {
+  color: blue;
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: underline; }
+
+pre {
+  border-radius: 20px;
+  padding: 15px;
+  background-color: lightgrey; }
+
+li.navbar-title {
+  font-weight: bold; }
+
+li.navbar-active, nav.navbar ul li:hover {
+  background-color: darkblue; }
+
+nav.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 55px;
+  background-color: blue;
+  color: white; }
+
+nav.navbar ul {
+  list-style-type: none; }
+
+nav.navbar ul li {
+  display: inline;
+  padding: 19px;
+  cursor: pointer; }
+
+nav.navbar ul li a {
+  color: white;
+  text-decoration: none; }
+
+.notice, .notice-warning, .notice-error, .notice-success {
+  position: fixed;
+  top: 55px;
+  left: 0;
+  width: 100%;
+  height: 55px;
+  padding-left: 20px; }
+
+.notice-warning {
+  background-color: rgba(255, 165, 0, 0.8);
+  color: white; }
+
+.notice-error {
+  background-color: rgba(255, 0, 0, 0.8);
+  color: white; }
+
+.notice-success {
+  background-color: rgba(0, 255, 0, 0.8);
+  color: black; }
+
+button.notice-dismiss-button {
+  display: inline-block;
+  border: none;
+  text-align: right;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 50%;
+  color: white;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  position: fixed;
+  top: 70px;
+  right: 20px; }
+
+.alert, .alert-success, .alert-warning, .alert-error {
+  position: fixed;
+  top: 60px;
+  right: 50%;
+  border-radius: 10px;
+  padding: 10px; }
+
+.alert-success {
+  background-color: rgba(0, 255, 0, 0.8);
+  color: black; }
+
+.alert-warning {
+  background-color: rgba(255, 165, 0, 0.8);
+  color: white; }
+
+.alert-error {
+  background-color: rgba(255, 0, 0, 0.8);
+  color: white; }
+
+.alert-dismiss {
+  color: rgba(0, 0, 0, 0.5);
+  padding-left: 10px;
+  font-weight: bold; }
+
+.alert-dismiss:hover {
+  text-decoration: none; }
+
+button, input[type="button"], input[type="submit"] {
+  background-color: lightgrey;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  margin: 10px;
+  border: none; }
+
+button:hover, input[type="button"]:hover, input[type="submit"]:hover {
+  background-color: darkgrey;
+  transition: 0.5s; }
+
+button:active, input[type="button"]:active, input[type="submit"]:active {
+  background-color: darkgrey;
+  box-shadow: 0 4px 16px 0 grey, 0 4px 20px 0 grey; }
+
+.button-success {
+  background-color: lime; }
+
+.button-success:active {
+  background-color: green;
+  box-shadow: 0 4px 16px 0 grey, 0 4px 10px 0 grey;
+  color: white; }
+
+.button-success:hover {
+  background-color: green;
+  color: white; }
+
+.button-error {
+  background-color: red;
+  color: white; }
+
+.button-error:active {
+  background-color: darkred;
+  box-shadow: 0 4px 16px 0 grey, 0 4px 10px 0 grey;
+  color: white; }
+
+.button-error:hover {
+  background-color: darkred;
+  color: white; }
+
+.button-warning {
+  background-color: orange;
+  color: white; }
+
+.button-warning:active {
+  background-color: darkorange;
+  box-shadow: 0 4px 16px 0 lightgrey, 0 4px 10px 0 lightgrey;
+  color: white; }
+
+.button-warning:hover {
+  background-color: darkorange;
+  color: white; }
+
+input[type="text"], input[type="password"], input.input-box, textarea, textarea.input-area {
+  border: 1px solid black;
+  border-radius: 7px;
+  padding: 4px; }
+
+input[type="text"]:focus, input[type="password"]:focus, input.input-box:focus, textarea:focus, textarea.input-area:focus {
+  outline: none;
+  border-color: aqua;
+  box-shadow: 0 0 10px aqua;
+  transition: 0.5s; }
+
+input[type="text"]:hover, input[type="password"]:hover, input.input-box:hover, textarea:hover, textarea.input-area:hover {
+  outline: none;
+  border-color: aqua;
+  transition: 0.5s; }
+
+ul.nav-pills {
+  list-style-type: none;
+  display: block; }
+
+ul.nav-pills li {
+  border-radius: 10px;
+  display: inline;
+  padding: 10px;
+  cursor: pointer; }
+
+ul.nav-pills li.active {
+  background-color: blue;
+  color: white; }
+
+ul.nav-pills li:hover {
+  background-color: lightgrey; }
+
+ul.nav-pills li.active:hover {
+  background-color: blue; }
+
+ul.nav-pills li.active a {
+  color: white; }
+
+ul.nav-pills li a {
+  color: black; }
+
+.label, .label-success, .label-error, .label-warning {
+  border-radius: 10px;
+  padding: 5px;
+  background-color: grey;
+  color: white; }
+
+.label-success {
+  background-color: lime;
+  color: black; }
+
+.label-error {
+  background-color: red;
+  color: white; }
+
+.label-warning {
+  background-color: orange;
+  color: white; }
+
+.badge, .badge-white {
+  border-radius: 50%;
+  background-color: grey;
+  color: white;
+  padding: 5px;
+  width: 15px;
+  height: 17px;
+  display: inline-block; }
+
+.badge-white {
+  background-color: white;
+  color: black; }
+
+.jumbo {
+  border-radius: 10px;
+  padding: 20px;
+  background-color: lightgrey; }
+
+.jumbo h1, .jumbo h2, .jumbo h3, .jumbo h4, .jumbo h5, .jumbo h6 {
+  border: none; }
+
+h1, h2, h3, h4, h5, h6 {
+  border-bottom: 1px solid lightgrey; }
+
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
+  color: grey; }
+
+/* START SOURCE FROM FONT AWESOME (.loader == .fa .fa-pulse .fa-lg, .loader:before == .fa-spinner) */
+.loader {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-animation: fa-spin 1s infinite steps(8);
+  animation: fa-spin 1s infinite steps(8);
+  font-size: 1.33333333em;
+  line-height: 0.75em;
+  vertical-align: -15%; }
+
+.loader:before {
+  content: "\f110"; }
+
+/* END SOURCE FROM FONT AWESOME */
+.message, .message-success, .message-error, .message-warning {
+  display: block;
+  padding: 10px;
+  border: 1px solid grey;
+  background-color: lightgrey;
+  color: black; }
+
+.message-success {
+  border-color: darkgreen;
+  background-color: lime;
+  color: black; }
+
+.message-error {
+  border-color: darkred;
+  background-color: red;
+  color: white; }
+
+.message-warning {
+  border-color: darkorange;
+  background-color: orange;
+  color: white; }
+
+.box-head, .box-body {
+  border: 1px solid black;
+  background-color: lightgrey;
+  color: black;
+  border-radius: 20px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  padding: 10px; }
+
+.box-body {
+  background-color: none;
+  border-radius: 20px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0; }
+
+/*# sourceMappingURL=sharp-css.css.map */

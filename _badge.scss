@@ -1,0 +1,42 @@
+//
+// Sharp-CSS
+// CSS styling for sharp-www
+// License: MIT License
+//
+
+.label{
+    border-radius: 10px;
+    padding: 5px;
+    background-color: grey;
+    color: white;
+}
+.label-success{
+    @extend .label;
+    background-color: lime;
+    color: black;
+}
+.label-error{
+    @extend .label;
+    background-color: red;
+    color: white;
+}
+.label-warning{
+    @extend .label;
+    background-color: orange;
+    color: white;
+}
+
+.badge{
+    border-radius: 50%;
+    background-color: grey;
+    color: white;
+    padding: 5px;
+    width: 15px;
+    height: 17px;
+    display: inline-block;
+}
+.badge-white{
+    @extend .badge;
+    background-color: white;
+    color: black;
+}

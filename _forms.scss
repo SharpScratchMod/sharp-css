@@ -1,0 +1,24 @@
+//
+// Sharp-CSS
+// CSS styling for sharp-www
+// License: MIT License
+//
+
+input[type="text"], input[type="password"], input.input-box, textarea, textarea.input-area{
+    border: 1px solid black;
+    border-radius: 7px;
+    padding: 4px;
+}
+
+input[type="text"]:focus, input[type="password"]:focus, input.input-box:focus, textarea:focus, textarea.input-area:focus{
+    outline: none;
+    border-color: aqua;
+    box-shadow: 0 0 10px aqua;
+    transition: 0.5s;
+}
+
+input[type="text"]:hover, input[type="password"]:hover, input.input-box:hover, textarea:hover, textarea.input-area:hover{
+    outline: none;
+    border-color: aqua;
+    transition: 0.5s;
+}

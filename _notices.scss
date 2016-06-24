@@ -1,0 +1,74 @@
+//
+// Sharp-CSS
+// CSS styling for sharp-www
+// License: MIT License
+//
+
+.notice{
+    position: fixed;
+    top: 55px;
+    left: 0;
+    width: 100%;
+    height: 55px;
+    padding-left: 20px;
+}
+.notice-warning{
+    @extend .notice;
+    background-color: $notice_warning;
+    color: $notice_warning_text;
+}
+.notice-error{
+    @extend .notice;
+    background-color: $notice_error;
+    color: $notice_error_text;
+}
+.notice-success{
+    @extend .notice;
+    background-color: $notice_success;
+    color: $notice_success_text;
+}
+button.notice-dismiss-button{
+    display: inline-block;
+    border: none;
+    text-align: right;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 50%;
+    color: white;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    position: fixed;
+    top: 70px;
+    right: 20px;
+}
+
+.alert{
+    position: fixed;
+    top: 60px;
+    right: 50%;
+    border-radius: 10px;
+    padding: 10px;
+}
+.alert-success{
+    @extend .alert;
+    background-color: $notice_success;
+    color: $notice_success_text;
+}
+.alert-warning{
+    @extend .alert;
+    background-color: $notice_warning;
+    color: $notice_warning_text;
+}
+.alert-error{
+    @extend .alert;
+    background-color: $notice_error;
+    color: $notice_error_text;
+}
+.alert-dismiss{
+    color: rgba(0,0,0,0.5);
+    padding-left: 10px;
+    font-weight: bold;
+}
+.alert-dismiss:hover{
+    text-decoration: none;
+}
