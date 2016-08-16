@@ -170,6 +170,19 @@ button:active, input[type="button"]:active, input[type="submit"]:active {
   background-color: darkorange;
   color: white; }
 
+.button-primary {
+  background-color: aqua;
+  color: black; }
+
+.button-primary:active {
+  background-color: #00faff;
+  box-shadow: 0 4px 16px 0 lightgrey, 0 4px 10 px 0 lightgrey;
+  color: black; }
+
+.button-primary:hover {
+  background-color: #00faff;
+  color: black; }
+
 input[type="text"], input[type="password"], input.input-box, textarea, textarea.input-area {
   border: 1px solid black;
   border-radius: 7px;

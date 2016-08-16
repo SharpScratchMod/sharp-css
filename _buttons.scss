@@ -61,3 +61,17 @@ button:active, input[type="button"]:active, input[type="submit"]:active{
     background-color: $forms_buttons_warning_border;
     color: white;
 }
+
+.button-primary{
+	background-color: $forms_buttons_primary_bg;
+	color: black;
+}
+.button-primary:active{
+	background-color: $forms_buttons_primary_border;
+	box-shadow: 0 4px 16px 0 $shadow_color_light, 0 4px 10 px 0 $shadow_color_light;
+	color: black;
+}
+.button-primary:hover{
+	background-color: $forms_buttons_primary_border;
+	color: black;
+}
